@@ -1,0 +1,117 @@
+p{
+  font-family: Roboto;
+}
+
+.home-button{
+  display: inline-block;
+  width: 50px;
+}
+
+.home-logo{
+   display: inline-block;
+  width:50px;
+}
+
+.home-logo:hover{
+  cursor:pointer;
+}
+
+body{
+  background-color: rgb(1, 8, 35);
+}
+
+.title-div{
+  width: 500px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 500px;
+}
+
+.title{
+  display: inline-block;
+  color:white;
+  font-weight: bold;
+  font-size:50px;
+}
+
+.links{
+  width: 900px;
+  margin-bottom: 100px;
+}
+
+.games-link{
+  text-decoration: none;
+  color:white;
+  display: inline-block;
+  margin-left:550px;
+}
+
+.games-link:hover{
+  cursor: pointer;
+}
+
+.careers-link{
+  text-decoration: none;
+  color:white;
+  display: inline-block;
+  margin-left:20px;
+}
+
+.careers-link:hover{
+  cursor: pointer;
+}
+
+.teams-link{
+  text-decoration: none;
+  color:white;
+  display: inline-block;
+  margin-left:20px;
+}
+
+.teams-link:hover{
+  cursor: pointer;
+}
+
+.intro{
+  color: WHite;
+  background-color: rgb(42, 42, 117);
+  margin-left: 400px;
+  width: 700px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.abtus{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.pgraph{
+  display: inline-block;
+  margin-left:10px;
+}
+
+.discord{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -350px;
+  width:400px;
+  margin-left: 800px;
+
+}
+
+.discord:hover{
+  cursor: pointer;
+}
+
+.x{
+    display: inline-block;
+  vertical-align: top;
+  margin-top: -250px;
+  width:150px;
+  margin-left: 900px;
+}
+
+.x:hover{
+cursor: pointer;
+}
