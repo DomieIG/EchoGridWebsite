@@ -5,11 +5,13 @@ p{
 .home-button{
   display: inline-block;
   width: 50px;
+  margin-top: 20px;
+  margin-left:10px;
 }
 
 .home-logo{
    display: inline-block;
-  width:50px;
+  width:100px;
 }
 
 .home-logo:hover{
@@ -18,13 +20,15 @@ p{
 
 body{
   background-color: rgb(1, 8, 35);
+  padding-bottom:50px;
 }
 
 .title-div{
   width: 500px;
   display: inline-block;
   vertical-align: top;
-  margin-left: 500px;
+  margin-left: 650px;
+  margin-top: 20px;
 }
 
 .title{
@@ -35,7 +39,7 @@ body{
 }
 
 .links{
-  width: 900px;
+  width: 1500px;
   margin-bottom: 100px;
 }
 
@@ -43,7 +47,8 @@ body{
   text-decoration: none;
   color:white;
   display: inline-block;
-  margin-left:550px;
+  margin-left:500px;
+  font-size: 25px;
 }
 
 .games-link:hover{
@@ -54,7 +59,8 @@ body{
   text-decoration: none;
   color:white;
   display: inline-block;
-  margin-left:20px;
+  margin-left:30px;
+  font-size: 25px;
 }
 
 .careers-link:hover{
@@ -65,53 +71,93 @@ body{
   text-decoration: none;
   color:white;
   display: inline-block;
-  margin-left:20px;
+  margin-left:30px;
+  font-size: 25px;
 }
 
 .teams-link:hover{
   cursor: pointer;
 }
 
-.intro{
-  color: WHite;
-  background-color: rgb(42, 42, 117);
-  margin-left: 400px;
-  width: 700px;
-  line-height: 30px;
-  display: inline-block;
+.information{
+  width: 900px;
+  margin-top: 50px;
+  margin-left: 500px;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 100%;
 }
 
-.abtus{
+.privacy-link{
+  text-decoration: none;
+  color:white;
   display: inline-block;
-  margin-left: 10px;
-}
-
-.pgraph{
-  display: inline-block;
-  margin-left:10px;
+  margin-left:30px;
+  font-size: 25px;
 }
 
 .discord{
-  display: inline-block;
-  vertical-align: top;
-  margin-top: -350px;
-  width:400px;
-  margin-left: 800px;
-
-}
-
-.discord:hover{
-  cursor: pointer;
+  width:300px;
+  margin-top: 20px;
+  margin-bottom:20px;
 }
 
 .x{
-    display: inline-block;
-  vertical-align: top;
-  margin-top: -250px;
-  width:150px;
-  margin-left: 900px;
+  width:80px;
+  size:10px;
+  margin-left:100px;
 }
 
-.x:hover{
-cursor: pointer;
+.about-us{
+  margin-right: 100px;
+   width: 700px;
+   height: 450px;
+  background: linear-gradient(to right, #004996, #1184e1);
+  border-radius: 80px;
+  border-style: solid;
+  border-width: 20px;
+  border-color: rgb(15, 12, 110);
+}
+
+.paragraph{
+ margin-top: 45px;
+ max-width: 600px;
+ margin-left: 50px;
+ line-height: 35px;
+ font-weight: 400;
+ font-family: Roboto;
+ font-size: 20px;
+}
+
+
+.socials{
+margin-left:550px;
+}
+
+.social-header{
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 250px;
+}
+
+.social-icons{
+  background-color: rgb(15, 12, 110);
+  width:fit-content;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:20px;
+  padding-right:25px;
+  border-radius: 30px;
+  border-color: rgb(11, 53, 168);
+  border-style: solid;
+  border-width: 10px;
+}
+
+.about-us-heading{
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-left: 300px;
 }
